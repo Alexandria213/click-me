@@ -102,6 +102,9 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            //Extension: add an image!
+            const Image(image: NetworkImage('https://media0.giphy.com/media/1SvnHJFEuEH7hp81tF/giphy-downsized-large.gif'),
+            )
           ],
         ),
       ),
